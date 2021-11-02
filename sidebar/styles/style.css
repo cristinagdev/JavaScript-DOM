@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.cabecera {
+  height: 4rem;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.sidebar{
+  background: coral;
+  position: absolute;
+  width: 250px;
+  height: calc(100vh - 4rem);
+  right: -250px;
+  top: 0;
+  padding: 2rem;
+  transition: right 0.5s ease;
+  z-index: 2;
+}
+
+.open-sidebar {
+  right: 0;
+}
+
+.backdrop {  
+  position: absolute;
+  background:#0005;
+  width: 100%;
+  height: calc(100vh - 4rem);
+  top:0;
+  z-index: 1;
+}

@@ -1,0 +1,32 @@
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  background-color: teal;
+}
+
+.boton {
+  border-radius: 5px;
+  height: 40px;
+  background-color:rgb(117, 219, 219); 
+}
+
+.dark {
+
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+.margin-img {
+  margin: 20px 0;
+}

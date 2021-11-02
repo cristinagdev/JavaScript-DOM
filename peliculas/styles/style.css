@@ -1,0 +1,14 @@
+body {
+  background-color: darkcyan;
+}
+
+.caja li {
+  display: flex;
+  width: 70%;
+  font-size: 1.7rem;
+}
+
+
+.caja li i{
+  cursor: pointer;
+}
